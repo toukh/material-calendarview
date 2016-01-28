@@ -45,6 +45,7 @@ class DayView extends CheckedTextView {
     private Drawable selectionDrawable;
     private DayFormatter formatter = DayFormatter.DEFAULT;
 
+    private boolean isNewInRange = true;
     private boolean isInRange = true;
     private boolean isInMonth = true;
     private boolean isDecoratedDisabled = false;
